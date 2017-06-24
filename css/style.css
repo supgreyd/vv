@@ -16,6 +16,8 @@ html {
 
     max-width: 1440px;
     font-size: 0;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
@@ -86,6 +88,7 @@ header{
 .header-line__punkt:before {
     padding-right: 10px;
     vertical-align: middle;
+    display: inline-block;
 }
 
 .header-line__punkt_delivery:before {
