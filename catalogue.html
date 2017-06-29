@@ -11,12 +11,16 @@
 </head>
 <body>
 <main>
+
     <div class="breadcrumbs">
+
         <div class="container">
-            <ul>
-                <li><a href="">Одежда</a></li>
-                <li><a href="">Главные тенденции этого лета</a></li>
-            </ul>
+            <div class="col-md-12">
+                <ul>
+                    <li><a href="">Одежда</a></li>
+                    <li><a href="">Главные тенденции этого лета</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <section class="catalog">
@@ -26,14 +30,22 @@
                     <span>Показаны результаты:</span>
                     <div class="result"><span>Бренд:</span>
                         <ul class="result-list">
-                            <li>V&#38;V<button class="btn__cancel"></button></li>
-                            <li>Breshka<button class="btn__cancel"></button></li>
+                            <li>V&#38;V
+                                <button class="btn__cancel"></button>
+                            </li>
+                            <li>Breshka
+                                <button class="btn__cancel"></button>
+                            </li>
                         </ul>
                     </div>
                     <div class="result"><span>Размер:</span>
                         <ul class="result-list">
-                            <li>XXS<button class="btn__cancel"></button></li>
-                            <li>XS<button class="btn__cancel"></button></li>
+                            <li>XXS
+                                <button class="btn__cancel"></button>
+                            </li>
+                            <li>XS
+                                <button class="btn__cancel"></button>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -56,23 +68,314 @@
                 </div>
 
                 <div class="sidebar__brand">
-                    <h3></h3>
-                    <input type="search" placeholder="Поиск">
+                    <h3>Бренд</h3>
+                    <form action="" class="searchBrand">
+                        <input class="inputBrand" type="search" placeholder="Поиск">
+                    </form>
+                    <ul>
+                        <li>
+                            <label for="v&v" class="control control-checkbox">V&#38;V
+                                <input type="checkbox" id="v&v">
+                                <div class="control-indicator"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="breshka" class="control control-checkbox">Breshka
+                                <input type="checkbox" id="breshka">
+                                <div class="control-indicator"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="zara" class="control control-checkbox">Zara
+                                <input type="checkbox" id="zara">
+                                <div class="control-indicator"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="mango" class="control control-checkbox">Mango
+                                <input type="checkbox" id="mango">
+                                <div class="control-indicator"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="pull&bear" class="control control-checkbox">Pull &#38; Bear
+                                <input type="checkbox" id="pull&bear">
+                                <div class="control-indicator"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="gepur" class="control control-checkbox">Gepur
+                                <input type="checkbox" id="gepur">
+                                <div class="control-indicator"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="issa" class="control control-checkbox">Issa
+                                <input type="checkbox" id="issa">
+                                <div class="control-indicator"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="massimo_duti" class="control control-checkbox">Massimo Dutti
+                                <input type="checkbox" id="massimo_duti">
+                                <div class="control-indicator"></div>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
 
+                <div class="sidebar__price">
+                    <h3>цена</h3>
+                    <div class="sidebar__price-scale">
+                        <div class="sidebar__price-min"></div>
+                        <div class="sidebar__price-max"></div>
+                    </div>
+                    <form action="" class="inputPrice">
+                        <div class="inputPrice-min">
+                            <input type="number" placeholder="320">
+                            <div class="inputPrice-curency"><span>грн.</span></div>
+                        </div>
+                        <div class="inputPrice-max">
+                            <input type="number" placeholder="3000">
+                            <div class="inputPrice-curency"><span>грн.</span></div>
+                        </div>
+                    </form>
+                </div>
+
+                <!--<div class="sidebar__size">-->
+                <!--<h3>Размер</h3>-->
+                <!--<ul>-->
+                <!--<li>-->
+                <!---->
+                <!--</li>-->
+                <!--</ul>-->
+                <!--</div>-->
+
+                <div class="sidebar__color">
+                    <h3>Цвет</h3>
+                    <ul>
+                        <li>
+                            <input type="checkbox" class="checkbox checkbox__color color__blue-sat" id="blue-sat">
+                            <label for="blue-sat">Насыщенно-синий</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="checkbox checkbox__color color__pink" id="pink">
+                            <label for="pink">Розовый</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="checkbox checkbox__color color__red" id="red">
+                            <label for="red">Красный</label>
+                        </li>
+                    </ul>
                 </div>
 
             </section>
 
 
             <section class="col-md-9 catalog">
-                <div class="row">
+
                     <section class="col-md-12">
                         <article class="catalog__about">
                             <h1>Главные тенденции этого лета</h1>
-                            <p>Дизайнеры держат руку на пульсе модных тенденций, чтобы вы всегда выглядели стильно и модно. Полный цикл производств от эскиза до пошива готового изделия позволяет нам контролировать качество каждого изделия, чтобы оно оставалось на высоком уровне и радовало покупателей.</p>
+                            <p>Дизайнеры держат руку на пульсе модных тенденций, чтобы вы всегда выглядели стильно и
+                                модно. Полный цикл производств от эскиза до пошива готового изделия позволяет нам
+                                контролировать качество каждого изделия, чтобы оно оставалось на высоком уровне и
+                                радовало покупателей.</p>
                         </article>
                     </section>
+                <div class="col-md-12">
+                <div class="catalog__sort">
+
+                        <div class="catalog__sort-recomend">
+                            <span>сортировка</span>
+                            <div class="sort-list">
+                                <select>
+                                    <option>по рекомендации</option>
+                                    <option>по цене</option>
+                                    <option>по красоте</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="catalog__item-show">
+                            <span>отображать</span>
+                            <div class="sort-list">
+                                <select>
+                                    <option>48 товаров</option>
+                                    <option>24 товара</option>
+                                    <option>16 товаров</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="goods">
+                    <div class="div goods-list">
+                        <div class="col-md-8 col-sm-12 product product-hot">
+                            <div class="product__image__box">
+                                <a href="" class="product__image">
+                                    <img src="assets/goods/hot-1.png" alt="">
+                                </a>
+                                <div class="product-hot__image__text-bl">
+                                    <span class="product__type">Платья в пол</span>
+                                    <span class="product__name">Белая подводка</span>
+                                    <div class="product__price__block">
+                                        <span class="priduct__price">320</span>
+                                        <span class="product__price__curency">грн.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 product">
+                            <div class="product__image__box">
+                                <div class="product__image__button">
+                                    <button class="product__button product__button-left">Быстрый просмотр</button>
+                                    <button class="product__button product__button-right">В список желаний</button>
+
+                                </div>
+                                <a href="" class="product__image">
+                                    <img src="assets/goods/recomended-4.jpg" alt="">
+                                </a>
+
+                            </div>
+                            <a href="" class="product__type">Сарафаны</a>
+                            <a href="" class="product__name">Сарафан с принтом</a>
+                            <div class="product__price__block">
+                                <span class="product__price-old"></span>
+                                <span class="product__price-old__curency"></span>
+                                <span class="priduct__price">345</span>
+                                <span class="product__price__curency">грн.</span>
+                            </div>
+                        </div>
+                        <div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 product">
+                            <div class="product__image__box">
+                                <div class="product__image__button">
+                                    <button class="product__button product__button-left">Быстрый просмотр</button>
+                                    <button class="product__button product__button-right">В список желаний</button>
+                                </div>
+                                <a href="" class="product__image">
+                                    <img src="assets/goods/recomended-2.jpg" alt="">
+                                </a>
+
+                            </div>
+                            <a href="" class="product__type">Платья в пол</a>
+                            <a href="" class="product__name">Сарафан с рюшами</a>
+                            <div class="product__price__block">
+                                <span class="product__price-old"></span>
+                                <span class="product__price-old__curency"></span>
+                                <span class="priduct__price">320</span>
+                                <span class="product__price__curency">грн.</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 product">
+                            <div class="product__image__box">
+                                <div class="product__image__button">
+                                    <button class="product__button product__button-left">Быстрый просмотр</button>
+                                    <button class="product__button product__button-right">В список желаний</button>
+
+                                </div>
+                                <a href="" class="product__image">
+                                    <img src="assets/goods/recomended-3.jpg" alt="">
+                                </a>
+
+                            </div>
+                            <a href="" class="product__type">Платья Oversize</a>
+                            <a href="" class="product__name">Платье асимметричной длины</a>
+                            <div class="product__price__block">
+                                <span class="product__price-old"></span>
+                                <span class="product__price-old__curency"></span>
+                                <span class="priduct__price">456</span>
+                                <span class="product__price__curency">грн.</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 product">
+                            <div class="product__image__box">
+                                <div class="product__image__button">
+                                    <button class="product__button product__button-left">Быстрый просмотр</button>
+                                    <button class="product__button product__button-right">В список желаний</button>
+                                </div>
+                                <a href="" class="product__image">
+                                    <img src="assets/goods/recomended-5.png" alt="">
+                                </a>
+
+                            </div>
+                            <a href="" class="product__type">сарафаны</a>
+                            <a href="" class="product__name">Сарафан с принтом</a>
+                            <div class="product__price__block">
+                                <span class="product__price-old"></span>
+                                <span class="product__price-old__curency"></span>
+                                <span class="priduct__price">354</span>
+                                <span class="product__price__curency">грн.</span>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 product">
+                            <div class="product__image__box">
+                                <div class="product__image__button">
+                                    <button class="product__button product__button-left">Быстрый просмотр</button>
+                                    <button class="product__button product__button-right">В список желаний</button>
+
+                                </div>
+                                <a href="" class="product__image">
+                                    <img src="assets/goods/recomended-6.png" alt="">
+                                </a>
+
+                            </div>
+                            <a href="" class="product__type">Платья в пол</a>
+                            <a href="" class="product__name">Сарафан с рюшками</a>
+                            <div class="product__price__block">
+                                <span class="product__price-old"></span>
+                                <span class="product__price-old__curency"></span>
+                                <span class="priduct__price">456</span>
+                                <span class="product__price__curency">грн.</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 product">
+                            <div class="product__image__box">
+                                <div class="product__image__button">
+                                    <button class="product__button product__button-left">Быстрый просмотр</button>
+                                    <button class="product__button product__button-right">В список желаний</button>
+                                </div>
+                                <a href="" class="product__image">
+                                    <img src="assets/goods/recomended-7.png" alt="">
+                                </a>
+
+                            </div>
+                            <a href="" class="product__type">Платья Oversize</a>
+                            <a href="" class="product__name">Платье асимметричной длины</a>
+                            <div class="product__price__block">
+                                <span class="product__price-old"></span>
+                                <span class="product__price-old__curency"></span>
+                                <span class="priduct__price">456</span>
+                                <span class="product__price__curency">грн.</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 product">
+                            <div class="product__image__box">
+                                <div class="product__image__button">
+                                    <button class="product__button product__button-left">Быстрый просмотр</button>
+                                    <button class="product__button product__button-right">В список желаний</button>
+
+                                </div>
+                                <a href="" class="product__image">
+                                    <img src="assets/goods/recomended-8.png" alt="">
+                                </a>
+
+                            </div>
+                            <a href="" class="product__type">Сарафаны</a>
+                            <a href="" class="product__name">Сарафан с принтом</a>
+                            <div class="product__price__block">
+                                <span class="product__price-old"></span>
+                                <span class="product__price-old__curency"></span>
+                                <span class="priduct__price">345</span>
+                                <span class="product__price__curency">грн.</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </section>
         </div>
     </section>
