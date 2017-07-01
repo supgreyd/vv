@@ -26,6 +26,7 @@
     <section class="catalog">
         <div class="container row">
             <section class="col-md-3 sidebar">
+                <form action="">
                 <div class="result-box">
                     <span>Показаны результаты:</span>
                     <div class="result"><span>Бренд:</span>
@@ -74,52 +75,36 @@
                     </form>
                     <ul>
                         <li>
-                            <label for="v&v" class="control control-checkbox">V&#38;V
-                                <input type="checkbox" id="v&v">
-                                <div class="control-indicator"></div>
-                            </label>
+                            <input type="checkbox" class="checkbox checkbox__brand" id="vv">
+                            <label for="vv">V&#38;V</label>
                         </li>
                         <li>
-                            <label for="breshka" class="control control-checkbox">Breshka
-                                <input type="checkbox" id="breshka">
-                                <div class="control-indicator"></div>
-                            </label>
+                            <input type="checkbox" class="checkbox checkbox__brand" id="breshka">
+                            <label for="breshka">Breshka</label>
                         </li>
                         <li>
-                            <label for="zara" class="control control-checkbox">Zara
-                                <input type="checkbox" id="zara">
-                                <div class="control-indicator"></div>
-                            </label>
+                            <input type="checkbox" class="checkbox checkbox__brand" id="zara">
+                            <label for="zara">Zara</label>
                         </li>
                         <li>
-                            <label for="mango" class="control control-checkbox">Mango
-                                <input type="checkbox" id="mango">
-                                <div class="control-indicator"></div>
-                            </label>
+                            <input type="checkbox" class="checkbox checkbox__brand" id="mango">
+                            <label for="mango">Mango</label>
                         </li>
                         <li>
-                            <label for="pull&bear" class="control control-checkbox">Pull &#38; Bear
-                                <input type="checkbox" id="pull&bear">
-                                <div class="control-indicator"></div>
-                            </label>
+                            <input type="checkbox" class="checkbox checkbox__brand" id="pull_bear">
+                            <label for="pull_bear">Pull &#38; Bear</label>
                         </li>
                         <li>
-                            <label for="gepur" class="control control-checkbox">Gepur
-                                <input type="checkbox" id="gepur">
-                                <div class="control-indicator"></div>
-                            </label>
+                            <input type="checkbox" class="checkbox checkbox__brand" id="gepur">
+                            <label for="gepur">Gepur</label>
                         </li>
                         <li>
-                            <label for="issa" class="control control-checkbox">Issa
-                                <input type="checkbox" id="issa">
-                                <div class="control-indicator"></div>
-                            </label>
+                            <input type="checkbox" class="checkbox checkbox__brand" id="issa">
+                            <label for="issa">Issa</label>
                         </li>
                         <li>
-                            <label for="massimo_duti" class="control control-checkbox">Massimo Dutti
-                                <input type="checkbox" id="massimo_duti">
-                                <div class="control-indicator"></div>
-                            </label>
+                            <input type="checkbox" class="checkbox checkbox__brand" id="massimo_duti">
+                            <label for="massimo_duti">Massimo Dutti</label>
                         </li>
                     </ul>
                 </div>
@@ -142,14 +127,55 @@
                     </form>
                 </div>
 
-                <!--<div class="sidebar__size">-->
-                <!--<h3>Размер</h3>-->
-                <!--<ul>-->
-                <!--<li>-->
-                <!---->
-                <!--</li>-->
-                <!--</ul>-->
-                <!--</div>-->
+                <div class="sidebar__size">
+                    <h3>Размер</h3>
+                    <ul>
+                        <li>
+                            <label for="xxs" class="checkbox__size-control">
+                                <input type="checkbox" id="xxs">
+                                <div class="checkbox__size"><span>xxs</span></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="xs" class="checkbox__size-control">
+                                <input type="checkbox" id="xs">
+                                <div class="checkbox__size"><span>xs</span></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="s" class="checkbox__size-control">
+                                <input type="checkbox" id="s">
+                                <div class="checkbox__size checkbox__size__small"><span>s</span></div>
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="m" class="checkbox__size-control">
+                                <input type="checkbox" id="m">
+                                <div class="checkbox__size checkbox__size__small"><span>m</span></div>
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="l" class="checkbox__size-control">
+                                <input type="checkbox" id="l">
+                                <div class="checkbox__size checkbox__size__small"><span>l</span></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="xl" class="checkbox__size-control">
+                                <input type="checkbox" id="xl">
+                                <div class="checkbox__size"><span>xl</span></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="xxl" class="checkbox__size-control">
+                                <input type="checkbox" id="xxl">
+                                <div class="checkbox__size"><span>xxl</span></div>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
 
                 <div class="sidebar__color">
                     <h3>Цвет</h3>
@@ -169,6 +195,30 @@
                     </ul>
                 </div>
 
+                <div class="sidebar__seazon">
+                    <h3>Сезон</h3>
+                    <ul>
+                        <li>
+                            <input type="checkbox" class="checkbox checkbox__seazon" id="summer">
+                            <label for="summer">Лето</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="checkbox checkbox__seazon" id="winter">
+                            <label for="winter">Зима</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="checkbox checkbox__seazon" id="spring">
+                            <label for="spring">Весна</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="checkbox checkbox__seazon" id="autumn">
+                            <label for="autumn">Осень</label>
+                        </li>
+                    </ul>
+                </div>
+
+                    <button class="btn__sidebar">сбросить фильтр</button>
+                </form>
             </section>
 
 
