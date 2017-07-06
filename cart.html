@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://use.fontawesome.com/f269894ed5.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>cart</title>
+</head>
+<body>
+
+<section class="cart">
+    <div class="container">
+        <h2>Корзина товаров</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Нименование товара</h3>
+            </div>
+            <div class="col-md-2">
+                <h3>размер</h3>
+            </div>
+            <div class="col-md-2">
+                <h3>цена за 1 товар</h3>
+            </div>
+            <div class="col-md-2">
+                <h3>количество</h3>
+            </div>
+            <div class="col-md-2">
+                <h3>стоимость</h3>
+            </div>
+        </div>
+        <div class="underline"></div>
+        <div class="row">
+            <section class="cart__product">
+                <div class="col-md-4">
+                    <figure>
+                        <img class="cart__product-image" src="assets/goods/cart-1.jpg" alt="">
+                        <figcaption>
+                            <span class="cart__product-name">Женское розовое платье с открытыми плечами</span>
+                            <span class="cart__product-type">Платья в пол</span>
+                            <form class="cart__product-remove" action="">
+                                <button>Удалить из корзины</button>
+                            </form>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-2">
+                    <div class="cart__product-size">
+                        <div class="select">
+                            <div class="select__field">
+                                <span class="select__value">xxs</span>
+                            </div>
+
+                            <ul class="select__multiselect">
+                                <li>xxs</li>
+                                <li>xs</li>
+                                <li>s</li>
+                                <li>m</li>
+                                <li>l</li>
+                                <li>xl</li>
+                                <li>xxl</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <span class="cart__product-price">350</span>
+                    <span class="cart__product-curency">грн.</span>
+                </div>
+                <div class="col-md-2">
+                    <input class="cart__product-count" type="text" value="3">
+                    <form action="">
+                        <button class="product-count-more"></button>
+                        <button class="product-count-less"></button>
+                    </form>
+                </div>
+                <div class="col-md-2">
+                    <span class="cart__product-price__total">1 050</span>
+                    <span class="cart__product-curency__total">грн.</span>
+                </div>
+            </section>
+        </div>
+        <div class="underline"></div>
+        <div class="row">
+            <section class="cart__product">
+                <div class="col-md-4">
+                    <figure>
+                        <img class="cart__product-image" src="assets/goods/cart-2.png" alt="">
+                        <figcaption>
+                            <span class="cart__product-name">Женское розовое платье с открытыми плечами</span>
+                            <span class="cart__product-type">Платья в пол</span>
+                            <form class="cart__product-remove" action="">
+                                <button>Удалить из корзины</button>
+                            </form>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-2">
+                    <div class="cart__product-size">
+                        <div class="select">
+                            <div class="select__field">
+                                <span class="select__value">xxs</span>
+                            </div>
+
+                            <ul class="select__multiselect">
+                                <li>xxs</li>
+                                <li>xs</li>
+                                <li>s</li>
+                                <li>m</li>
+                                <li>l</li>
+                                <li>xl</li>
+                                <li>xxl</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <span class="cart__product-price">350</span>
+                    <span class="cart__product-curency">грн.</span>
+                </div>
+                <div class="col-md-2">
+                    <input class="cart__product-count" type="text" value="3">
+                    <form action="">
+                        <button class="product-count-more"></button>
+                        <button class="product-count-less"></button>
+                    </form>
+                </div>
+                <div class="col-md-2">
+                    <span class="cart__product-price__total">1 050</span>
+                    <span class="cart__product-curency__total">грн.</span>
+                </div>
+            </section>
+        </div>
+        <div class="underline"></div>
+        <div class="row">
+            <div class="col-md-5">
+                <section class="promocode">
+                    <form class="promocode__action" action="">
+                        <button>У вас есть промокод или сертификат?</button>
+                    </form>
+                </section>
+            </div>
+            <div class="col-md-7">
+                <section class="cart__payment">
+                    <ul>
+                        <li>Всего:<span class="cart__payment-total">2 100 грн.</span></li>
+                        <li>Доставка:<span class="cart__payment-delivery">Бесплатно</span></li>
+                    </ul>
+                    <div class="underline"></div>
+                    <span>К оплате:</span><span class="cart__payment-to-pay">2 100 грн.</span>
+                </section>
+                <form class="cart__payment-buttons" action="">
+                    <button class="btn__cart btn__cart-shoping">продолжить покупки</button>
+                    <button class="btn__cart btn__cart-checkout">офоррмить заказ</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="goods">
+    <div class="container">
+        <h2>С этим товаром чаще всего покупают</h2>
+        <div class="goods-list row">
+
+            <div class="col-md-3 col-sm-6 col-xs-12 product">
+                <div class="product__image__box">
+                    <div class="product__image__button">
+                        <button class="product__button product__button-left">Быстрый просмотр</button>
+                        <button class="product__button product__button-right">В список желаний</button>
+                    </div>
+                    <a href="" class="product__image">
+                        <img src="assets/goods/recomended-2.jpg" alt="">
+                    </a>
+
+                </div>
+                <a href="" class="product__type">Платья в пол</a>
+                <a href="" class="product__name">Сарафан с рюшами</a>
+                <div class="product__price__block">
+                    <span class="product__price-old"></span>
+                    <span class="product__price-old__curency"></span>
+                    <span class="priduct__price">320</span>
+                    <span class="product__price__curency">грн.</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 product">
+                <div class="product__image__box">
+                    <div class="product__image__button">
+                        <button class="product__button product__button-left">Быстрый просмотр</button>
+                        <button class="product__button product__button-right">В список желаний</button>
+
+                    </div>
+                    <a href="" class="product__image">
+                        <img src="assets/goods/recomended-3.jpg" alt="">
+                    </a>
+
+                </div>
+                <a href="" class="product__type">Платья Oversize</a>
+                <a href="" class="product__name">Платье асимметричной длины</a>
+                <div class="product__price__block">
+                    <span class="product__price-old"></span>
+                    <span class="product__price-old__curency"></span>
+                    <span class="priduct__price">456</span>
+                    <span class="product__price__curency">грн.</span>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 product">
+                <div class="product__image__box">
+                    <div class="product__image__button">
+                        <button class="product__button product__button-left">Быстрый просмотр</button>
+                        <button class="product__button product__button-right">В список желаний</button>
+                    </div>
+                    <a href="" class="product__image">
+                        <img src="assets/goods/recomended-5.png" alt="">
+                    </a>
+
+                </div>
+                <a href="" class="product__type">сарафаны</a>
+                <a href="" class="product__name">Сарафан с принтом</a>
+                <div class="product__price__block">
+                    <span class="product__price-old"></span>
+                    <span class="product__price-old__curency"></span>
+                    <span class="priduct__price">354</span>
+                    <span class="product__price__curency">грн.</span>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-sm-6 col-xs-12 product">
+                <div class="product__image__box">
+                    <div class="product__image__button">
+                        <button class="product__button product__button-left">Быстрый просмотр</button>
+                        <button class="product__button product__button-right">В список желаний</button>
+
+                    </div>
+                    <a href="" class="product__image">
+                        <img src="assets/goods/recomended-11.jpg" alt="">
+                    </a>
+
+                </div>
+                <a href="" class="product__type">Сарафаны</a>
+                <a href="" class="product__name">Сарафан с принтом</a>
+                <div class="product__price__block">
+                    <span class="product__price-old"></span>
+                    <span class="product__price-old__curency"></span>
+                    <span class="priduct__price">345</span>
+                    <span class="product__price__curency">грн.</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>

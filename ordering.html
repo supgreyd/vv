@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://use.fontawesome.com/f269894ed5.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>ordering</title>
+</head>
+<body>
+<header class="order__header"></header>
+<main class="order__main">
+    <section class="order__container">
+        <section class="breadcrumbs order__breadcrumbs">
+            <ul>
+                <li class="breadcrumbs__active"><a href="">Оформление заказа</a></li>
+                <li><a href="">Оплата</a></li>
+                <li><a href="">Подьверждение заказа</a></li>
+            </ul>
+        </section>
+        <section class="order__blank">
+            <section class="order__blank-section">
+                <h2>Персональная информация</h2>
+                <div class="blank-section-row">
+                    <div class="blank-section__input">
+                        <span>ваш e-mail</span>
+                        <input type="text">
+                    </div>
+                    <div class="blank-section__input">
+                        <span>контактный телефон</span>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="blank-section-row">
+                    <div class="blank-section__input">
+                        <span>имя</span>
+                        <input type="text">
+                    </div>
+                    <div class="blank-section__input">
+                        <span>фамилия</span>
+                        <input type="text">
+                    </div>
+                </div>
+            </section>
+
+            <section class="order__blank-section">
+                <h2>Доставка</h2>
+                <div class="blank-section-row">
+                    <div class="blank-section__select">
+                        <span>укажите область</span>
+
+                        <div class="select">
+                            <div class="select__field order__select__field">
+                                <input class="select__value" type="text" value="Днепропетровская">
+
+
+                                <ul class="select__multiselect">
+                                    <li>область</li>
+                                    <li>область</li>
+                                    <li>область</li>
+                                    <li>область</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blank-section__select">
+                        <span>укажите область</span>
+
+                        <div class="select">
+                            <div class="select__field order__select__field">
+                                <input class="select__value" type="text" value="Днепропетровск">
+
+
+                                <ul class="select__multiselect">
+                                    <li>город</li>
+                                    <li>город</li>
+                                    <li>город</li>
+                                    <li>город</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="order__delivery">
+
+
+                    <ul>
+                        <li>
+                            <input name="delivery" type="radio" class="radio radio__delivery" id="np" checked>
+                            <label for="np">
+                                <h3>На отделение новой почты</h3></label>
+                            <p>При доставке в удобное вам отделение службы "Новая почта" возможна оплата заказа
+                                наличными при получении. Сумма к оплате будет равна сумме вашего заказа. Расходы на
+                                комиссию и
+                                другие сопутствующие платежи мы берем на себя.</p>
+
+                        </li>
+                        <li>
+                            <input name="delivery" type="radio" class="radio radio__delivery" id="courier">
+                            <label for="courier">
+                                <h3>Курьером на указанный адрес по Украине</h3></label>
+                            <p>Доствка курьером производится только по Киеву и Одессе. В других случаях предлагаем
+                                воспользоваться услугами компании “Новая почта”. Все расходы мы берем на себя.</p>
+
+                        </li>
+                    </ul>
+                </section>
+
+            </section>
+
+            <section class="order__blank-section">
+                <h2>Оплата</h2>
+                <section class="order__pay">
+                    <ul>
+                        <li><input name="pay" type="radio" class="radio radio__pay" id="card" checked>
+                            <label for="card">Банковской картой на сайте (Visa, Mastercard</label>)
+                        </li>
+                        <li><input name="pay" type="radio" class="radio radio__pay" id="pos">
+                            <label for="pos">Банковской картой с помощью мобильного POS-терминала</label></li>
+                        <li><input name="pay" type="radio" class="radio radio__pay" id="cash">
+                            <label for="cash">Наличными</label></li>
+                        <li><input name="pay" type="radio" class="radio radio__pay" id="bank">
+                            <label for="bank">Банковским переводом</label></li>
+                    </ul>
+                </section>
+
+            </section>
+            <section class="order__blank-comment">
+                <span>комментарий к заказу</span>
+                <textarea name="comment" id="order-comment"></textarea>
+            </section>
+
+        </section>
+    </section>
+</main>
+
+<footer>
+    <section class="footer">
+        <div class="large-container row">
+            <div class="flex">
+                <section class="footer__block footer__block-info ">
+                    <a href=""><img src="assets/svg/VVLEN.svg" alt=""></a>
+                    <p>Наш магазин работает 24/7.<br> Заказы оформляем с понедельнка по пятницу с 09:00 до 18:00.</p>
+                </section>
+
+                <section class="footer__block footer__block-contacts ">
+                    <a href="tel:+380 50 390 4138" class="footer__block-contacts-phone">+380 50 390 4138</a>
+                    <address class="footer__block-contacts-adress">65017, г. Одесса, ул. Косовская 2</address>
+                    <a href="mailto:info@vv-ltd.com.ua" class="footer__block-contacts-mail">info@vv-ltd.com.ua</a>
+                    <form action="">
+                        <button class="btn-ask">Задайте вопрос специалисту поддержки</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-line">
+        <div class="large-container row">
+            <p class="col-md-12 footer-line__text">У нас покупают стиль. VVLEN - интернет-магазин брендовой одежды и
+                обуви, о которых все говорят. Актуальные коллекции Levi's и Guess, костюмы Lagerfeld, туфли и акcессуары
+                Baldinini на полках вашего виртуального гардероба. Купить стильные джинсы и удобную обувь стало проще,
+                теперь вы заказываете образ с доставкой по Украине. Все от культовых моделей джинсов до строгих пальто,
+                вечерние платья и деловые костюмы, босоножки, туфли, легендарные сумки Guess и то, чего вы еще не
+                видели, но уже точно хотите. Быстрый поиск, подборки последних трендов, модная обувь и новые
+                дизайнерские решения от любимых брендов. С VVLEN вы всегда первые и на полшага впереди моды. Удобная
+                доставка по Киеву, Одессе, Харькову и Днепропетровску.</p>
+        </div>
+    </section>
+
+</footer>
+
+</body>
+</html>

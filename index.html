@@ -14,13 +14,13 @@
     <div class="header-line">
         <div class="large-container">
             <div class="header__row flex">
-                <nav class="g-left">
+                <nav>
                     <a href="" class="header-line__punkt header-line__punkt_delivery">Оплата и доставка</a>
                     <a href="" class="header-line__punkt header-line__punkt_return">Возвраты</a>
                     <a href="" class="header-line__punkt header-line__punkt_faq">Ответы на вопросы</a>
                     <a href="" class="header-line__punkt header-line__punkt_contact-us">Контакты</a>
                 </nav>
-                <nav class="g-right">
+                <nav>
                     <a href="" class="header-line__punkt header-line__punkt_work">Сотрудничество</a>
                     <a href="" class="header-line__punkt header-line__punkt_info">О компании</a>
                     <a href="" class="header-line__punkt header-line__punkt_country"><span>Украина</span></a>
@@ -32,14 +32,14 @@
     <div class="header">
         <div class="large-container">
             <div class="header__row flex">
-                <div class="g-left">
+                <div>
                     <a href="" class="header__punkt header__punkt_login"></a>
                     <a href="" class="header__punkt header__punkt_search"></a>
                 </div>
-                <div class="g-centr">
+                <div>
                     <a href="" class="header__punkt header__punkt_logo"></a>
                 </div>
-                <div class="g-right">
+                <div>
                     <a href="" class="header__punkt header__punkt_favorit"></a>
                     <a href="" class="header__punkt header__punkt_cart"></a>
                 </div>
@@ -47,7 +47,83 @@
         </div>
         <nav class="header-menu">
             <ul>
-                <li><a href="" class="header-menu__punkt header-menu__punkt__cloths">одежда</a></li>
+                <li>
+                    <a href="" class="header-menu__punkt header-menu__punkt__cloths">одежда</a>
+                    <ul class="dropdown">
+                        <div class="container">
+                            <div class="col-md-2">
+                                <h3>платья</h3>
+                                <li><a href="">Вечерние платья</a></li>
+                                <li><a href="">Выпускные платья</a></li>
+                                <li><a href="">Коктейльные платья</a></li>
+                                <li><a href="">Летние платья</a></li>
+                                <li><a href="">Офисные платья</a></li>
+                                <li><a href="">Платья oversize</a></li>
+                                <li><a href="">Платья в пол</a></li>
+                                <li><a href="">Повседневные платья</a></li>
+                                <li><a href="">Сарафаны</a></li>
+                            </div>
+
+                            <div class="col-md-2">
+                                <h3>одежда</h3>
+                                <li><a href="">Кардиганы и жакеты</a></li>
+                                <li><a href="">Кардиганы и жакеты</a></li>
+                                <li><a href="">Oversize</a></li>
+                                <li><a href="">Комбинезоны</a></li>
+                                <li><a href="">Костюмы</a></li>
+                                <li><a href="">Кофты и блузы</a></li>
+                                <li><a href="">Свитшоты и худи</a></li>
+                                <li><a href="">Туники oversize</a></li>
+                                <li><a href="">Худи oversize</a></li>
+                            </div>
+                            <div class="col-md-2">
+                                <h3>брюки</h3>
+                                <li><a href="">Брюки с принтами</a></li>
+                                <li><a href="">Брюки-сигареты</a></li>
+                                <li><a href="">Зауженные брюки</a></li>
+                                <li><a href="">Леггинсы и лосины</a></li>
+                                <h3 class="dropdown__header-inlist">Большие размеры</h3>
+                                <li><a href="">Женские костюмы</a></li>
+                                <li><a href="">Летние платья</a></li>
+                            </div>
+                            <div class="col-md-2">
+                                <h3>популярные бренды</h3>
+                                <li><a href="">V&#38;V</a></li>
+                                <li><a href="">Bershka</a></li>
+                                <li><a href="">Zara</a></li>
+                                <li><a href="">Mango</a></li>
+                                <li><a href="">Pull &#38; Bear</a></li>
+                                <li><a href="">Gepur</a></li>
+                                <li><a href="">Issa</a></li>
+                                <li><a href="">Massimo Dutti</a></li>
+                            </div>
+                            <div class="col-md-4">
+                                <h3>последние поступления</h3>
+                                <div class="col-md-6 product">
+                                    <div class="product__image__box">
+                                        <a href="" class="product__image">
+                                            <img src="assets/goods/goods-small-1.jpg" alt="">
+                                        </a>
+
+                                    </div>
+                                    <a href="" class="product__type">платья в пол</a>
+                                    <a href="" class="product__name">Сарафан с рюшами</a>
+
+                                </div>
+                                <div class="col-md-6 product">
+                                    <div class="product__image__box">
+                                        <a href="" class="product__image">
+                                            <img src="assets/goods/goods-small-2.jpg" alt="">
+                                        </a>
+
+                                    </div>
+                                    <a href="" class="product__type">женские костюмы</a>
+                                    <a href="" class="product__name">Сарафан с рюшами</a>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
                 <li><a href="" class="header-menu__punkt header-menu__punkt__shes">обувь</a></li>
                 <li><a href="" class="header-menu__punkt header-menu__punkt__acsesuars">аксесуары</a></li>
                 <li><a href="" class="header-menu__punkt header-menu__punkt__sport">спорт</a></li>
@@ -364,17 +440,7 @@
 
     <section class="blog">
         <div class="container">
-        <h2>Лучшее из нашего блога</h2>
-        <section class="col-md-4 col-sm-12 card">
-            <div class="card__image">
-                <img src="assets/blog/blog1.jpg" alt="">
-            </div>
-            <article class="card__text">
-                <span>советы</span>
-                <h3>Какой купальник выбрать</h3>
-                <p>Мы снова встретились с инстаблоггером из Израиля Дмитрием Миллион и попросили его рассказать о новых путешествиях и летнем гардеробе в большом городе.</p>
-            </article>
-        </section>
+            <h2>Лучшее из нашего блога</h2>
             <section class="col-md-4 col-sm-12 card">
                 <div class="card__image">
                     <img src="assets/blog/blog1.jpg" alt="">
@@ -382,7 +448,8 @@
                 <article class="card__text">
                     <span>советы</span>
                     <h3>Какой купальник выбрать</h3>
-                    <p>Мы снова встретились с инстаблоггером из Израиля Дмитрием Миллион и попросили его рассказать о новых путешествиях и летнем гардеробе в большом городе.</p>
+                    <p>Мы снова встретились с инстаблоггером из Израиля Дмитрием Миллион и попросили его рассказать о
+                        новых путешествиях и летнем гардеробе в большом городе.</p>
                 </article>
             </section>
             <section class="col-md-4 col-sm-12 card">
@@ -392,7 +459,19 @@
                 <article class="card__text">
                     <span>советы</span>
                     <h3>Какой купальник выбрать</h3>
-                    <p>Мы снова встретились с инстаблоггером из Израиля Дмитрием Миллион и попросили его рассказать о новых путешествиях и летнем гардеробе в большом городе.</p>
+                    <p>Мы снова встретились с инстаблоггером из Израиля Дмитрием Миллион и попросили его рассказать о
+                        новых путешествиях и летнем гардеробе в большом городе.</p>
+                </article>
+            </section>
+            <section class="col-md-4 col-sm-12 card">
+                <div class="card__image">
+                    <img src="assets/blog/blog1.jpg" alt="">
+                </div>
+                <article class="card__text">
+                    <span>советы</span>
+                    <h3>Какой купальник выбрать</h3>
+                    <p>Мы снова встретились с инстаблоггером из Израиля Дмитрием Миллион и попросили его рассказать о
+                        новых путешествиях и летнем гардеробе в большом городе.</p>
                 </article>
             </section>
         </div>
@@ -400,34 +479,37 @@
 
     <section class="review">
         <div class="container">
-            <h2>Наши клиенты любят нас</h2>
+            <!--<div class="row">-->
+                    <button class="btn__switch btn__switch-next-rev"></button>
+                    <button class="btn__switch btn__switch-previous-rev"></button>
 
-            <article class="col-md-6 col-xs-12 user-review">
-                <div class="div review__user-avatar">
-                    <img src="assets/avatar/ava1.jpg" alt="">
-                </div>
-                <section class="review__user-text">
-                    <span class="review__user-nama">Елена</span>
-                    <span>&mdash;</span>
-                    <time class="review__date">14 июня 2017</time>
-                    <h3 class="review__titel">Асимметричное легкое платье</h3>
-                    <p class="reviw__text">Роскошное платье! На рост 176 см и вес 62 кг взяла размер М . Село так, будто по мне его и шили. Длина тоже в самый раз! Смотрится как на кукле. Очень довольна!</p>
-                </section>
-            </article>
+                    <div class="col-md-4 col-sm-12 user-foto"></div>
+                    <section class="col-md-8 col-sm-12 user-review">
+                        <div class="user">
+                            <div class="user-avatar"></div>
+                            <div class="user-info">
+                                <span class="user-name">анна</span>
+                                <span class="user-city">киев</span>
+                                <span class="user-source">instagram</span>
+                                <h2>Соблазнительная атласная пижама</h2>
+                            </div>
+                        </div>
+                        <article class="user-text">
+                            <p>Авторитетное американское fashion-издание The Business of Fashion опросило 2600
+                                сотрудников
+                                из
+                                190 ведущих компаний в сфере моды и составило первый ежегодный отчет «The Best Companies
+                                to
+                                Work
+                                for in Fashion». <br><br>
 
-            <article class="col-md-6 col-xs-12 user-review">
-                <div class="div review__user-avatar">
-                    <img src="assets/avatar/ava1.jpg" alt="">
-                </div>
-                <section class="review__user-text">
-                    <span class="review__user-nama">Елена</span>
-                    <span>&mdash;</span>
-                    <time class="review__date">14 июня 2017</time>
-                    <h3 class="review__titel">Асимметричное легкое платье</h3>
-                    <p class="reviw__text">Роскошное платье! На рост 176 см и вес 62 кг взяла размер М . Село так, будто по мне его и шили. Длина тоже в самый раз! Смотрится как на кукле. Очень довольна!</p>
-                </section>
-            </article>
+                                Целью проекта было определить лучшие компании для работы в индустрии, а главными
+                                критериями
+                                стали лояльное отношение к персоналу, условия труда и рабочая атмосфера.</p>
+                            <a href="">Посмотреть подробный отзыв</a></article>
+                    </section>
 
+            <!--</div>-->
         </div>
     </section>
 
@@ -435,7 +517,19 @@
         <div class="container">
             <article class="col-md-12 about-shop">
                 <h2 class="text-section__titel">Интернет-магазин женской одежды</h2>
-                <p class="text-section__text">На сайте вы можете заказать женскую одежду оптом и в розницу от производителя так дешево, как это только возможно. Разнообразие моделей и широкий размерный ряд для обладательниц любой фигуры - наши сильные стороны, которые выделяют нас среди конкурентов. На сайте Gepur вы сможете найти: 1. Платья разнообразных фасонов и расцветок: элегантные вечерние и соблазнительные мини, теплые трикотажные и летние из летящего шифона 2. Топы и блузы, костюмы в деловом стиле для офиса, в стиле casual на каждый день и спортивные для тренировок или активного отдыха 3. Комбинезоны, джинсы, леггинсы, шорты и юбки 4. Верхнюю одежду 5. Одежду для дома и сна 6.Купальники и яркие пляжные туники 7. Аксессуары под любой образ. Мы предусмотрели, чтобы девушка с любым типом фигуры смогла выбрать себе одежду. </p>
+                <ul>
+                    <li><p class="text-section__text">На сайте вы можете заказать женскую одежду оптом и в розницу от
+                        производителя так дешево, как это только возможно. Разнообразие моделей и широкий размерный ряд
+                        для обладательниц любой фигуры - наши сильные стороны, которые выделяют нас среди конкурентов.
+                        На сайте Gepur вы сможете найти: 1. Платья разнообразных фасонов и расцветок: элегантные
+                        вечерние и соблазнительные мини, теплые трикотажные и летние</p></li>
+                    <li><p class="text-section__text">Дизайнеры держат руку на пульсе модных тенденций, чтобы вы всегда
+                        выглядели стильно и модно. Полный цикл производства от эскиза до пошива готового изделия
+                        позволяет нам контролировать качество каждого изделия, чтобы оно оставалось на высоком уровне и
+                        радовало покупателей. Доставка товара осуществляется по всему миру в максимально быстрые сроки.
+                        На нашем сайте вы сможете выбрать для себя самый удобный способ доставки</p></li>
+                </ul>
+                <a href="">Читать полностью</a>
             </article>
         </div>
     </section>
@@ -456,7 +550,8 @@
             <section class="col-md-6 col-xs-12 social__block">
                 <h2>Подписывайтесь на наши новости</h2>
                 <form action="" class="subscribe">
-                    <input class="inputMail" type="email" placeholder="Подпишитесь на рассылку новостей" name="mail" required>
+                    <input class="inputMail" type="email" placeholder="Подпишитесь на рассылку новостей" name="mail"
+                           required>
                     <button class="btn-subscribe">Подписаться</button>
                 </form>
             </section>
@@ -468,11 +563,11 @@
 <footer>
     <section class="footer">
         <div class="large-container row">
-            <section class="col-md-2 footer__block footer__block-info">
+            <section class="col-md-2 col-sm-6 footer__block footer__block-info">
                 <a href=""><img src="assets/svg/VVLEN.svg" alt=""></a>
-                <p>Наш магазин работает 24/7.<br> Заказы оформляем с  понедельнка по пятницу с 09:00 до 18:00.</p>
+                <p>Наш магазин работает 24/7.<br> Заказы оформляем с понедельнка по пятницу с 09:00 до 18:00.</p>
             </section>
-            <section class="col-md-2 footer__block footer__block-help">
+            <section class="col-md-2 col-sm-6 footer__block footer__block-help">
                 <h2>помощь</h2>
                 <ul>
                     <li><a href="">Скидочные программы</a></li>
@@ -481,7 +576,7 @@
                     <li><a href="">Возвраты</a></li>
                 </ul>
             </section>
-            <section class="col-md-2 footer__block footer__block-about">
+            <section class="col-md-2 col-sm-6 footer__block footer__block-about">
                 <h2>vvlen</h2>
                 <ul>
                     <li><a href="">О компани</a></li>
@@ -490,7 +585,7 @@
                     <li><a href="">Вакансии</a></li>
                 </ul>
             </section>
-            <section class="col-md-3 footer__block footer__block-brand">
+            <section class="col-md-3 col-sm-6 footer__block footer__block-brand">
                 <h2>Популярные бренды</h2>
                 <ul>
                     <li><a href="">V&#38;V</a></li>
@@ -503,7 +598,7 @@
                     <li><a href="">Massimo Dutti</a></li>
                 </ul>
             </section>
-            <section class="col-md-3 footer__block footer__block-contacts">
+            <section class="col-md-3 col-sm-12 footer__block footer__block-contacts">
                 <a href="tel:+380 50 390 4138" class="footer__block-contacts-phone">+380 50 390 4138</a>
                 <address class="footer__block-contacts-adress">65017, г. Одесса, ул. Косовская 2</address>
                 <a href="mailto:info@vv-ltd.com.ua" class="footer__block-contacts-mail">info@vv-ltd.com.ua</a>
@@ -516,7 +611,14 @@
 
     <section class="footer-line">
         <div class="large-container row">
-            <p class="col-md-12 footer-line__text">У нас покупают стиль. VVLEN - интернет-магазин брендовой одежды и обуви, о которых все говорят. Актуальные коллекции Levi's и Guess, костюмы Lagerfeld, туфли и акcессуары Baldinini на полках вашего виртуального гардероба. Купить стильные джинсы и удобную обувь стало проще, теперь вы заказываете образ с доставкой по Украине. Все от культовых моделей джинсов до строгих пальто, вечерние платья и деловые костюмы, босоножки, туфли, легендарные сумки Guess и то, чего вы еще не видели, но уже точно хотите. Быстрый поиск, подборки последних трендов, модная обувь и новые дизайнерские решения от любимых брендов. С VVLEN вы всегда первые и на полшага впереди моды. Удобная доставка по Киеву, Одессе, Харькову и Днепропетровску.</p>
+            <p class="col-md-12 footer-line__text">У нас покупают стиль. VVLEN - интернет-магазин брендовой одежды и
+                обуви, о которых все говорят. Актуальные коллекции Levi's и Guess, костюмы Lagerfeld, туфли и акcессуары
+                Baldinini на полках вашего виртуального гардероба. Купить стильные джинсы и удобную обувь стало проще,
+                теперь вы заказываете образ с доставкой по Украине. Все от культовых моделей джинсов до строгих пальто,
+                вечерние платья и деловые костюмы, босоножки, туфли, легендарные сумки Guess и то, чего вы еще не
+                видели, но уже точно хотите. Быстрый поиск, подборки последних трендов, модная обувь и новые
+                дизайнерские решения от любимых брендов. С VVLEN вы всегда первые и на полшага впереди моды. Удобная
+                доставка по Киеву, Одессе, Харькову и Днепропетровску.</p>
         </div>
     </section>
 
