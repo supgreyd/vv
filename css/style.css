@@ -55,6 +55,8 @@ html {
     justify-content: space-between;
 }
 
+
+
 header{
     position: relative;
 }
@@ -509,6 +511,12 @@ header{
     cursor: pointer;
     border: 12px;
     outline: none;
+}
+
+@media (max-width: 992px){
+    .btn__switch{
+        display: none;
+    }
 }
 
 .btn__switch:hover{
@@ -2126,3 +2134,4 @@ a.pagination__prev{
 .radio:checked + label:after {
     opacity: 1;
 }
+
