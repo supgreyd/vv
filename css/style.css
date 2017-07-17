@@ -128,6 +128,11 @@ header{
     margin-right: -12px;
 }
 
+.header__row a:hover,
+.header-menu a:hover{
+    opacity: .7;
+}
+
 .header-line__punkt {
     font-size: 0.75rem;
     display: inline-block;
